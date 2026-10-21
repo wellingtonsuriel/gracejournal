@@ -1,5 +1,7 @@
 # GRACE-R: resilient provenance authorization
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23529419.svg)](https://doi.org/10.5281/zenodo.23529419)
+
 This archive reproduces the experiments accompanying **Resilient Provenance Authorization for MCP–RAG Language-Model Agents**. It includes public InjecAgent data, constructed certificate fixtures, numerical results and the implementation. The source of every input is explicit.
 
 The experiments measure deterministic authorization and source-domain evidence resilience. They do not measure a language model's attack success, benign task completion, or a deployed MCP service. The local effect adapter records simulated operations; it sends no emails, payments, or external tool calls.
@@ -89,4 +91,4 @@ The copy study preserves each certificate's true domain while repeating it one, 
 
 ## Archived version
 
-The version cited in the manuscript is archived on Zenodo: DOI `10.5281/zenodo.XXXXXXX` (to be filled in after the first release). Cite it using `CITATION.cff`.
+The version cited in the manuscript (v1.0.0) is archived on Zenodo: [doi:10.5281/zenodo.23529419](https://doi.org/10.5281/zenodo.23529419). The concept DOI [10.5281/zenodo.23529418](https://doi.org/10.5281/zenodo.23529418) always resolves to the latest version. Cite it using `CITATION.cff`.
