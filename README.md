@@ -1,6 +1,6 @@
 # GRACE-R: resilient provenance authorization
 
-This archive reproduces the experiments accompanying **Minimum-Byte Resilient Provenance Authorization for MCP–RAG Agents**. It includes public InjecAgent data, constructed certificate fixtures, numerical results and the implementation. The source of every input is explicit.
+This archive reproduces the experiments accompanying **Resilient Provenance Authorization for MCP–RAG Language-Model Agents**. It includes public InjecAgent data, constructed certificate fixtures, numerical results and the implementation. The source of every input is explicit.
 
 The experiments measure deterministic authorization and source-domain evidence resilience. They do not measure a language model's attack success, benign task completion, or a deployed MCP service. The local effect adapter records simulated operations; it sends no emails, payments, or external tool calls.
 
@@ -86,3 +86,7 @@ The adapter registers the committed witness by digest, verifies its bound permit
 Preserve `data/upstream/LICENCE` and cite the InjecAgent paper and pinned source when redistributing its data. The generated fixtures remain labeled as constructed inputs. The new implementation is provided under the MIT license in `LICENSE`.
 
 The copy study preserves each certificate's true domain while repeating it one, two or three times. The occurrence-counting comparator is a controlled ungrouped configuration. Its nominal support is evaluated against actual source removals; results/copy_study.csv retains the selected true domains for every witness. GRACE-R selects complete compiled bundles, so repeated certificates increase retained bundle bytes without increasing domain coverage.
+
+## Archived version
+
+The version cited in the manuscript is archived on Zenodo: DOI `10.5281/zenodo.XXXXXXX` (to be filled in after the first release). Cite it using `CITATION.cff`.

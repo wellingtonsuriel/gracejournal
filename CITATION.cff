@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it using the metadata below."
+title: "GRACE-R: Resilient Provenance Authorization for MCP-RAG Language-Model Agents (code and data)"
+type: software
+# TODO: replace with the real author list before creating the release that Zenodo archives.
+authors:
+  - family-names: "Surname"
+    given-names: "Given"
+license: MIT
+repository-code: "https://github.com/wellingtonsuriel/gracejournal"
+version: "1.0.0"
+date-released: "2026-10-21"
+keywords:
+  - provenance authorization
+  - language-model agents
+  - prompt injection
+  - retrieval-augmented generation
+  - Model Context Protocol
