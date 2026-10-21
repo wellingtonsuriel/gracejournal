@@ -1,0 +1,62 @@
+{
+  "dataset_commit": "f19c9f2c79a41046eb13c03c51a24c567a8ffa07",
+  "seed": 20261014,
+  "user_templates": 17,
+  "replicates_per_template": 20,
+  "domains_per_graph": 18,
+  "bundle_masks": "uniform nonempty proper subsets, redraw until every role has at least three domains",
+  "lineage_depth": "uniform integer 1..5",
+  "annotation_bytes": "uniform integer 0..768",
+  "tolerances": [
+    0,
+    1,
+    2
+  ],
+  "loss_probabilities": [
+    0.0,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5
+  ],
+  "scaling_roles": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "scaling_domains": [
+    16,
+    32,
+    64
+  ],
+  "scaling_repeats": 10,
+  "runtime_repeats": 3,
+  "fixture_clock": 1000,
+  "certificate_expiration": 2000,
+  "candidate_count": 340,
+  "inference_performed": false,
+  "copy_study": {
+    "occurrences_per_source": [
+      1,
+      2,
+      3
+    ],
+    "tolerated_domain_losses": [
+      1,
+      2
+    ],
+    "graphs": 340,
+    "methods": [
+      "Copy counting",
+      "GRACE-R"
+    ],
+    "loss_unit": "original signed source domain"
+  }
+}

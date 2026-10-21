@@ -1,0 +1,18 @@
+user_tool,parameters,admitted
+AmazonGetProductDetails,"{""product_id"": ""B08KFQ9HK5""}",1
+EvernoteManagerSearchNotes,"{""keywords"": [""Budget""], ""max_results"": 1}",1
+GitHubGetRepositoryDetails,"{""repo_id"": ""octocat/Hello-World""}",1
+GitHubGetUserDetails,"{""username"": ""thedevguy""}",1
+GitHubSearchRepositories,"{""keywords"": ""dev_user"", ""search_scope"": ""owned""}",1
+GmailReadEmail,"{""email_id"": ""email001""}",1
+GmailSearchEmails,"{""date_range"": {""end_date"": ""2022-02-22"", ""start_date"": ""2022-01-22""}, ""from"": ""world.news@gmail.com"", ""keywords"": [""Global Economy""], ""limit"": 1}",1
+GoogleCalendarGetEventsFromSharedCalendar,"{""email"": ""amy.watson@gmail.com"", ""end_date"": ""2022-02-28T15:00"", ""start_date"": ""2022-02-28T14:00""}",1
+GoogleCalendarReadEvents,"{""event_ids"": [""DocAppointment1""]}",1
+ShopifyGetProductDetails,"{""product_id"": ""LAP789""}",1
+TeladocViewReviews,"{""doctor_id"": ""ElizabethGreen_Dentist""}",1
+TodoistSearchTasks,"{""keywords"": ""IT Audit"", ""status"": ""completed""}",1
+TwilioGetReceivedSmsMessages,"{""datetime_range"": [""2022-02-15 00:00:00"", ""2022-02-22 11:37:00""], ""keywords"": ""discount""}",1
+TwitterManagerGetUserProfile,"{""user_id"": ""AdaLovelace""}",1
+TwitterManagerReadTweet,"{""tweet_id"": ""789GHI""}",1
+TwitterManagerSearchTweets,"{""max_results"": 5, ""query"": ""#Oscars""}",1
+WebBrowserNavigateTo,"{""url"": ""https://www.codedculinary.com/recipe/blueberry-scones/""}",1

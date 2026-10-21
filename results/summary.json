@@ -1,0 +1,99 @@
+{
+  "seed": 20261014,
+  "templates": 17,
+  "public_cases": 1054,
+  "optimization_graphs": 340,
+  "checked_domain_outages": 7399,
+  "first_tool_allowlist_admitted": 1,
+  "terminal_tool_allowlist_admitted": 0,
+  "public_provenance_admitted": 0,
+  "categories": {
+    "Physical Harm": 170,
+    "Financial Harm": 153,
+    "Data Security Harm": 187,
+    "Physical Data": 187,
+    "Financial Data": 102,
+    "Others": 255
+  },
+  "attacker_templates": 62,
+  "named_attacker_operations": 63,
+  "byte_fractions": [
+    {
+      "method": "Exact",
+      "tolerance": 0,
+      "mean": 0.08053330879452579,
+      "median": 0.0800610715231097,
+      "min": 0.0595780073542286,
+      "max": 0.1138405451152293
+    },
+    {
+      "method": "Exact",
+      "tolerance": 1,
+      "mean": 0.15145938886662413,
+      "median": 0.1491325782800656,
+      "min": 0.1061991108446975,
+      "max": 0.2122083584581845
+    },
+    {
+      "method": "Exact",
+      "tolerance": 2,
+      "mean": 0.2432269064923956,
+      "median": 0.2384015853402926,
+      "min": 0.1766997942296747,
+      "max": 0.3426875086970639
+    },
+    {
+      "method": "Greedy",
+      "tolerance": 0,
+      "mean": 0.08258207614851296,
+      "median": 0.0820860505451924,
+      "min": 0.0630166753271292,
+      "max": 0.128875925510433
+    },
+    {
+      "method": "Greedy",
+      "tolerance": 1,
+      "mean": 0.16172573195493106,
+      "median": 0.16196810898197875,
+      "min": 0.1061991108446975,
+      "max": 0.2634868278286533
+    },
+    {
+      "method": "Greedy",
+      "tolerance": 2,
+      "mean": 0.25203456209152014,
+      "median": 0.2454684512445048,
+      "min": 0.1766997942296747,
+      "max": 0.3992448244433835
+    }
+  ],
+  "greedy_gap": {
+    "mean_relative": 0.04271596449738408,
+    "maximum_relative": 0.43384922616075894,
+    "strict_suboptimal_count": 425,
+    "comparisons": 1020
+  },
+  "availability_at_020": {
+    "All sources": 0.9998645640366839,
+    "Exact t=0": 0.6400000000000001,
+    "Exact t=1": 0.8963011764705882,
+    "Exact t=2": 0.9764984470588236,
+    "Greedy t=0": 0.6388705882352942,
+    "Greedy t=1": 0.903243294117647,
+    "Greedy t=2": 0.9779722842352941
+  },
+  "runtime_median_ms": {
+    "certificate_verification_ms": 2.6995864999999997,
+    "optimization_ms": 0.072609,
+    "permit_issue_ms": 0.09061649999999999,
+    "local_commit_ms": 0.6957679999999999,
+    "total_ms": 3.6439135
+  },
+  "runtime_p95_ms": 4.52070315,
+  "platform": {
+    "python": "3.12.14",
+    "system": "Linux-6.18.44-x86_64-with-glibc2.39",
+    "machine": "x86_64"
+  },
+  "scope": "Static public operation replay; constructed certificate diagnostics and evidence-loss workloads. No language-model inference or live external effects."
+}

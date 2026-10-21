@@ -1,0 +1,73 @@
+{
+  "repository": "https://github.com/uiuc-kang-lab/InjecAgent",
+  "commit": "f19c9f2c79a41046eb13c03c51a24c567a8ffa07",
+  "retrieved_utc": "2026-10-14",
+  "files": [
+    {
+      "path": "LICENCE",
+      "bytes": 1066,
+      "sha256": "b48589499dbb84caa796b00b4ea652b0443e49660282c44d890fd473b8c0674e",
+      "url": "https://raw.githubusercontent.com/uiuc-kang-lab/InjecAgent/f19c9f2c79a41046eb13c03c51a24c567a8ffa07/LICENCE"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4586,
+      "sha256": "09e81a9e68d5c2a1b491456c83da4ef0126426deb7eafa8588349c2dcce278ea",
+      "url": "https://raw.githubusercontent.com/uiuc-kang-lab/InjecAgent/f19c9f2c79a41046eb13c03c51a24c567a8ffa07/README.md"
+    },
+    {
+      "path": "data/attacker_cases_dh.jsonl",
+      "bytes": 10937,
+      "sha256": "999d52e15af3c80a3303a09430af0f3878d1f91e4c573ca7b477a91cdfa6b991",
+      "url": "https://raw.githubusercontent.com/uiuc-kang-lab/InjecAgent/f19c9f2c79a41046eb13c03c51a24c567a8ffa07/data/attacker_cases_dh.jsonl"
+    },
+    {
+      "path": "data/attacker_cases_ds.jsonl",
+      "bytes": 13209,
+      "sha256": "87952398c989d8ca841724e38ecdbb789676d3841e19dfc44aac7b710df9cb1f",
+      "url": "https://raw.githubusercontent.com/uiuc-kang-lab/InjecAgent/f19c9f2c79a41046eb13c03c51a24c567a8ffa07/data/attacker_cases_ds.jsonl"
+    },
+    {
+      "path": "data/attacker_simulated_responses.json",
+      "bytes": 1359580,
+      "sha256": "b1da2e1fb75f266c069b832fef6738c295f01d8962fae15bdac9ff6625e5594e",
+      "url": "https://raw.githubusercontent.com/uiuc-kang-lab/InjecAgent/f19c9f2c79a41046eb13c03c51a24c567a8ffa07/data/attacker_simulated_responses.json"
+    },
+    {
+      "path": "data/test_cases_dh_base.json",
+      "bytes": 672918,
+      "sha256": "0a8186468d21389af432e8c7b399ae42264d1b93a07b65c7a489468508604305",
+      "url": "https://raw.githubusercontent.com/uiuc-kang-lab/InjecAgent/f19c9f2c79a41046eb13c03c51a24c567a8ffa07/data/test_cases_dh_base.json"
+    },
+    {
+      "path": "data/test_cases_dh_enhanced.json",
+      "bytes": 721878,
+      "sha256": "885602716b72c18af80695ce6c2e1f242fa03163bc90b0788b0c5e4ab6216d50",
+      "url": "https://raw.githubusercontent.com/uiuc-kang-lab/InjecAgent/f19c9f2c79a41046eb13c03c51a24c567a8ffa07/data/test_cases_dh_enhanced.json"
+    },
+    {
+      "path": "data/test_cases_ds_base.json",
+      "bytes": 765370,
+      "sha256": "4daab35c62a3845e8b9400f4dca58b9c9f37e57cd33b2337552557fbb26282e9",
+      "url": "https://raw.githubusercontent.com/uiuc-kang-lab/InjecAgent/f19c9f2c79a41046eb13c03c51a24c567a8ffa07/data/test_cases_ds_base.json"
+    },
+    {
+      "path": "data/test_cases_ds_enhanced.json",
+      "bytes": 817594,
+      "sha256": "7bc510868df032511053fc40e8470e68a041fb7148d055112093594bf73ab0ce",
+      "url": "https://raw.githubusercontent.com/uiuc-kang-lab/InjecAgent/f19c9f2c79a41046eb13c03c51a24c567a8ffa07/data/test_cases_ds_enhanced.json"
+    },
+    {
+      "path": "data/tools.json",
+      "bytes": 541498,
+      "sha256": "e21a8f70b1d5de4677d6d52642936a322655d79b17a72c84f600550384083a1e",
+      "url": "https://raw.githubusercontent.com/uiuc-kang-lab/InjecAgent/f19c9f2c79a41046eb13c03c51a24c567a8ffa07/data/tools.json"
+    },
+    {
+      "path": "data/user_cases.jsonl",
+      "bytes": 10924,
+      "sha256": "c840e2b00fdce68e7142d0970220522303d67b2530d6fb36ef1112448cdd8977",
+      "url": "https://raw.githubusercontent.com/uiuc-kang-lab/InjecAgent/f19c9f2c79a41046eb13c03c51a24c567a8ffa07/data/user_cases.jsonl"
+    }
+  ]
+}
