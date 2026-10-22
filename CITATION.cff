@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software or data, please cite it using the metadata below."
-title: "GRACE-R: Resilient Provenance Authorization for MCP-RAG Language-Model Agents (code and data)"
+title: "GRACE-R: Resilient Provenance Authorization (Code and Data)"
 type: software
 authors:
   - family-names: "Nhidza"
